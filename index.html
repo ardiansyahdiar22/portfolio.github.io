@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-m8n8nYzQvLP+IcsuXEz3fRveC0X3oMVB6sHvXFeABZmJHfIOZS/d8XSIADdJ/CrT" crossorigin="anonymous">
+
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portfolio</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="../img/myself.jpeg" alt="Diar Ardiansyah" class="rounded-circle img-thumbnail" width="160"/>
+      <h1 class="display-4 text-white">Diar Ardiansyah</h1>
+      <p class="lead text-white">Software Quallity Engineer</p>
+    </section>
+    <!-- End of jumbotron -->
+
+    <!-- About Me -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Tentang Saya Diar Ardiansyah</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center fs-5">
+          <div class="col-md-4">
+            <p>Saat ini saya berkerja sebagai Quality Engineer di PT Bank BTPN untuk digital banking Jenius, saya memulai bekerja di perusahaan tersebut sejak Agustus 2022 sampai dengan saat ini.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Saya bertanggung jawab untuk membuat script automation test baik itu dari UI automation maupun API automation, dan memaintain automation script yang sudah existing ada saat ini.</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,192L40,176C80,160,160,128,240,149.3C320,171,400,245,480,261.3C560,277,640,235,720,202.7C800,171,880,149,960,138.7C1040,128,1120,128,1200,144C1280,160,1360,192,1400,208L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Of About Me -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="../img/selenium.jpg" class="card-img-top" alt="Projects 1" />
+              <div class="card-body">
+                <h4>Automation WEB selenium with Python Programming language</h4>
+                <p class="card-text">Automation WEB with selenium, python, and behave and already and has implemented the concept of the page object model (POM).</p>
+                <a class="badge bg-primary" href="https://github.com/ardiansyahdiar22/POM-python" target="_blank">See My Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="../img/mocha.png" class="card-img-top" alt="Projects 2" />
+              <div class="card-body">
+                <h4>Make automation API with mocha JS</h4>
+                <p class="card-text">Automation API with mocha JS with hit API public like a https://airportgap.dev-tester.com, https://api.trello.com and https://reqres.in</p>
+                <a class="badge bg-primary" href="https://github.com/ardiansyahdiar22/api-test-with-mochaJs" target="_blank">See My Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="../img/jenkins3.png" class="card-img-top" alt="Projects 3" />
+              <div class="card-body">
+                <h4>Make a simple pipeline script for running my automation code</h4>
+                <p class="card-text">Here I created a small pipeline script to implement continues integration in Jenkins, with the aim of running the automation script that I have created</p>
+                <a class="badge bg-primary" href="https://github.com/ardiansyahdiar22/pipeline-script" target="_blank">See My Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="../img/api_python.jpeg" class="card-img-top" alt="Projects 4" />
+              <div class="card-body">
+                <h4>Api automation with Python Programming language and pytest</h4>
+                <p class="card-text">I tried to create an automation API using the Python programming language and also using the Pytest framework</p>
+                <a class="badge bg-primary" href="https://github.com/ardiansyahdiar22/api_automation" target="_blank">See My Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L26.7,149.3C53.3,171,107,213,160,229.3C213.3,245,267,235,320,197.3C373.3,160,427,96,480,64C533.3,32,587,32,640,48C693.3,64,747,96,800,144C853.3,192,907,256,960,234.7C1013.3,213,1067,107,1120,96C1173.3,85,1227,171,1280,197.3C1333.3,224,1387,192,1413,176L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End of projects -->
+
+    <!-- Contact Me -->
+    <section id="contact">
+      <div class="container mt-0 mb-8">
+        <h3>Contact Me</h3>
+        <p>Feel free to reach out to me through any of the following platforms:</p>
+        <ul class="list-unstyled">
+          <li>
+            <i class="fab fa-whatsapp me-2"></i>
+            <h8>087881447637</h8>
+          </li>
+          <li>
+            <i class="fab fa-linkedin me-2"></i>
+            <a href="https://www.linkedin.com/in/diar-ardiansyah-72124419b/" target="_blank" class="contact-link">Diar Ardiansyah</a>
+          </li>
+          <li>
+            <i class="fas fa-envelope me-2"></i>
+            <h8>diarardiansyah212@gmail.com</h8>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+    </section>
+    <!-- End of contact me -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-center text-white pb-4 mt-3">
+      <p>Created By <i class="bi bi-people-fill text-danger"></i> <a href="https://twitter.com/diar_ardi12" target="_blank" class="text-white fw-bold">Diar Ardiansyah</a></p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
